@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MainFrame()
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment10.params=providers
+comment10.target=void\ _readProviderConfiguration(org.jdom2.Element)
+comment2.params=server\ provider
+comment2.target=void\ _buildTable(connector.Server,\ connector.Provider)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ _readConfiguration()
+comment6.params=servers
+comment6.target=void\ _readServerConfiguration(org.jdom2.Element)
+comment7.params=
+comment7.target=void\ _prepareServerConnectForm()
+comment8.params=ui
+comment8.target=void\ _prepareUiLaf(org.jdom2.Element)
+comment9.params=e
+comment9.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=11

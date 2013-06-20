@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=frame\ id\ lc
+comment0.target=RowDialog(javax.swing.JFrame,\ java.lang.Integer,\ connector.Database.Connector)
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=
+comment5.target=void\ goToFullScreen()
+comment5.text=public\ JTree\ build(String\ pathToXml)\ throws\ Exception\ {\n\ \ \ \ \ \ \ \ \ SAXReader\ reader\ \=\ new\ SAXReader();\n\ \ \ \ \ \ \ \ \ Document\ doc\ \=\ reader.read(pathToXml);\n\ \ \ \ \ \ \ \ \ return\ new\ JTree(build(doc.getRootElement()));\n\ \ \ \ }\n\ \ \ \ \n\ \ \ \ public\ DefaultMutableTreeNode\ build(Element\ e)\ {\n\ \ \ \ \ \ \ DefaultMutableTreeNode\ result\ \=\ new\ DefaultMutableTreeNode(e.getText());\n\ \ \ \ \ \ \ for(Object\ o\ \:\ e.elements())\ {\n\ \ \ \ \ \ \ \ \ \ Element\ child\ \=\ (Element)\ o;\n\ \ \ \ \ \ \ \ \ \ result.add(build(child));\n\ \ \ \ \ \ \ }\n\ \ \ \ \n\ \ \ \ \ \ \ return\ result;\ \ \ \ \ \ \ \ \ \n}
+comment6.params=xml
+comment6.target=org.jdesktop.swingx.JXTreeTable\ _parseXml(java.lang.String)
+comment7.params=col
+comment7.target=java.lang.String\ getColumnName(int)
+comment8.params=c
+comment8.target=java.lang.Class\ getColumnClass(int)
+comment9.params=parentElement\ parentNode
+comment9.target=void\ _parseXmlChildren(org.jdom2.Element,\ ArrayNode)
+numComments=10

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=config
+comment0.target=Provider(org.jdom2.Element)
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=java.lang.String\ getListQuery()
+comment3.params=
+comment3.target=java.lang.String\ getDetailsQuery()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

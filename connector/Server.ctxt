@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Server()
+comment1.params=config
+comment1.target=Server(org.jdom2.Element)
+comment2.params=
+comment2.target=java.lang.String\ getMysqlConnectionString()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
