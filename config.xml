@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <servers>
+        <server>
+            <name></name>
+            <host></host>
+            <port>3306</port>
+            <database></database>
+            <user></user>
+            <password></password>
+        </server>
+    </servers>
+    <providers>
+        <provider>
+            <name></name>
+            <listQuery></listQuery>
+            <detailsQuery></detailsQuery>
+        </provider>
+    </providers>
+    <uii>
+        <lookAndFeelList>
+            <lookAndFeel name="QuaQua" class="ch.randelshofer.quaqua.QuaquaLookAndFeel" />
+            <lookAndFeel name="Noire" class="com.jtattoo.plaf.noire.NoireLookAndFeel" />
+            <lookAndFeel name="HiFi" class="com.jtattoo.plaf.hifi.HiFiLookAndFeel" />
+            <lookAndFeel name="Aero" class="com.jtattoo.plaf.aero.AeroLookAndFeel" />
+        </lookAndFeelList>
+    </uii>
+</config>
